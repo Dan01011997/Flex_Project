@@ -1,0 +1,179 @@
+*{
+box-sizing: border-box;
+margin:0;
+padding:0;
+color:rgb(253, 243, 222);
+}
+p{
+    font-size: 14px;
+}
+body{
+    padding:0 12vw;
+    background-color: rgb(0, 0, 23);
+}
+.upsec{
+    background-color: rgba(107, 107, 107, 0.722);
+padding:0 12vw 6vw;
+border: 1px solid rgba(107, 107, 107, 0.722);
+border-radius: 2%;
+}
+.header{
+display: flex;
+flex-direction: column;
+gap:4vw;
+}
+.true{
+    display:flex;
+    padding:2vw 0;
+    align-items: center;
+}
+h1,h2{
+    font-weight: 800;
+}
+.header .logo{
+margin-right:auto;
+}
+.right-links{
+    display:flex;
+    gap:3vw;
+    list-style-type: none;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    
+}
+.info{
+    display:flex;
+}
+.descrip{
+    flex:1;
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    justify-content: space-between;
+}
+
+.disp{
+    flex:1;
+   border-radius:20%;
+background-image:url("scott.png");
+background-size: cover;
+background-position: 10px -20px;
+background-repeat: no-repeat;
+}
+
+button{
+    background-color:rgb(253, 243, 222);
+    align-self: flex-start;
+    padding:.5vw;
+    font-weight: 1000;
+    border-radius: 9%;
+    border: none;
+    color:black;
+}
+.content{
+    background-color: rgb(253, 243, 222);
+    border: 1px solid wheat;
+    border-radius: 2%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.contentchild{
+ 
+    padding:35px 0 6vw 0;
+    display: flex;
+    flex-direction: column;
+    gap:100px;
+
+}
+.contentchild>*{
+    padding-left: 12vw;
+    padding-right: 12vw;
+
+}
+.catalogue{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:35px;
+  
+
+}
+.content *{
+    color:black;
+}
+.catalogue ul{
+    display: flex;
+}
+.catalogue ul li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:7px;
+}
+.pic{
+    min-height:100px;
+    width: 100px;
+    border:2px solid black;
+    border-radius: 6px;
+}
+.subtext{
+font-size: small;
+text-align: center;
+}
+.quote{
+    background: rgba(98, 98, 98, 0.426);
+    padding-top: 100px;
+    padding-bottom: 70px;
+    display: flex;
+  flex-direction: column;
+  gap:20px;
+}
+
+.quote  i{
+    font-size: 30px;
+    color: rgb(56, 56, 56);
+    text-align: center;
+}
+q{
+    align-self: flex-end;
+    font-weight: 1000;
+}
+
+.signup *{
+    color:white;
+}
+.signup p{
+    font-size: 10px;
+}
+.signup button{
+    border:1px solid black;
+align-self: center;
+color:black;
+font-weight: 1000;    
+}
+.signup .back{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(59, 59, 59, 0.734);
+    padding:15px;
+    border-radius: 20px;
+}
+.footer{
+    background-color: rgba(107, 107, 107, 0.722);
+    padding:0 12vw 0 6vw;
+    border: 1px solid rgba(107, 107, 107, 0.722);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 40px;
+}
+.footer div{
+    font-size: small;
+    color:black;
+}
